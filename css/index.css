@@ -1,0 +1,124 @@
+div > p{
+		font-style: italic;
+	}
+
+.opening{
+	max-width: 1500px;
+	margin: 20px 20px;
+	text-align: center;
+}
+
+.title{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+.about_me{
+	margin: 20px;
+	font-style: unset;
+}
+
+.people{
+	overflow: auto;
+	border-bottom: currentColor;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+	max-width: 1500px;
+	margin: 20px 20px;
+	text-align: center;
+	padding: 3em;
+}
+
+#barack-obama{
+	background-color: #6189c6;
+}
+
+#donald-trump{
+	background-color: #fcbf3c;
+}
+
+#jack-ma{
+	background-color: #d31717;
+}
+
+#ho-chi-minh{
+	background-color: #9cce2f;
+}
+
+#huy-hien-picture{
+	width: 200px;
+	height: 250px;
+}
+
+@media screen and (min-width: 690px) {
+	.name{
+		width: 30%;
+		float: left;
+		padding-right: 8px;
+		text-align: center;
+	}
+
+	.biography{
+		width: 65%;
+		float: left;
+		padding-left: 8px;
+	}
+}
+
+@media screen and (min-width: 440px) {
+	.name{
+		text-align: center;
+	}
+	
+	.name > figure{
+		max-width: 250px;
+	}
+}
+
+@media screen and(min-width: 678px) {
+	figure {
+		width:290px;
+	}
+}
+
+@media screen and(max-width: 677px) {
+	figure {
+		width:40px;
+	}
+}
+
+@media screen and (min-width: 678px) {
+	#img-barack-obama {
+		content: url("../images/barack_obama_2.jpg");
+	}
+	#img-donald-trump {
+		content: url("../images/donald_trump_2.jpg");
+	}
+	#img-jack-ma {
+		content: url("../images/jack_ma_2.jpg");
+	}
+	#img-ho-chi-minh {
+		content: url("../images/ho_chi_minh_2.jpg");
+	}
+	figcaption {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 677px) {
+	#img-barack-obama {
+		content: url("../images/barack_obama_3.jpg");
+	}
+	#img-donald-trump {
+		content: url("../images/donald_trump_3.jpg");
+	}
+	#img-jack-ma {
+		content: url("../images/jack_ma_3.jpg");
+	}
+	#img-ho-chi-minh {
+		content: url("../images/ho_chi_minh_3.jpg");
+	}
+	figcaption {
+		font-size: 15px;
+	}
+}

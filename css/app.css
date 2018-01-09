@@ -1,0 +1,53 @@
+body{
+	color: #0f0f0a;
+	background-color: rgb(206, 206, 200);
+	font-family: "Times New Roman", "Apple Garamond", "Ubuntu";
+	font-size: 16px;
+}
+
+a{
+	text-decoration: underline;
+	color : inherit;
+}
+
+a:visited{
+	color:currentColor;
+}
+
+a:hover{
+	color:#4286f4;
+}
+
+p{
+	text-align: justify;
+}
+
+figure{
+	border: 1px solid white;
+	border-spacing: 0px;
+	padding: 5px;
+	width: 65%;
+	margin: 15%;
+}
+
+figcaption{
+	font-style: italic;
+	text-align: center;
+	text-decoration-color: white;
+	font-size: 100%
+}
+
+img{
+	width: 100%;
+	max-width: 100%;
+}
+
+picture{
+	width: 100%;
+	max-width: 100%;
+}
+
+video, audio{
+	width:100%;
+	max-width: 100%;
+}
